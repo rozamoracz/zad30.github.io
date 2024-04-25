@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+<meta charset="utf-8">
+<title>Szydełka </title>
+<meta name="description" content="Strona poświęcona szydełkowaniu, podstawowym technikom i najciekawszym wyrobom rękodzielniczym">
+<meta name="keywords" content="szydełko, szydełkowanie, rękodzieło, włóczka, szydełko, oczka, techniki szydełkowania">
+<meta name="author" content="Róża Dobrowolska">
+<meta http-equiv="X-Ua-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+<div id="container">
+    <div id="size">
+	
+    <div id="header">
+    
+		<img src="logo.png">
+    </div>
+    <div id="menutop">
+        <ul>
+		<li><a href="szydelka.html" > Szydełka </a></li>
+		<li><a href="wloczki.html" > Włóczki </a></li>
+		<li><a href="zestawy.html" > Zestawy</a></li>
+		<li><a href="index.html" > Główna </a></li>
+		
+		</ul>
+    </div>
+    <div id="aside">
+	<div class="menlew"><a href="#" > Wzory </a></div>
+	<div class="menlew"><a href="#" > Techniki </a></div>
+	<div class="menlew"><a href="#" > Inspiracje </a></div>
+	<div class="menlew"><a href="#" > Porady </a></div>
+	<div class="menlew"><a href="#" > Wzory </a></div>
+	<div style=clear:both></div>
+	</div>
+	<div id="content">
+Szydełkowanie to technika wykonywania ozdobnych wzorów i dziergania za pomocą szydełka. Może być używane do tworzenia różnych rodzajów wyrobów, takich jak 
+serwetki, szale, czy torebki. Szydełkowanie jest bardzo popularne wśród osób lubiących rękodzieło i tworzenie rzeczy własnoręcznie. 
+Szydełka to popularne narzędzie do rękodzieła, które służy do wykonywania wzorów z włóczki. 
+Można je używać do tworzenia różnorodnych przedmiotów, takich jak ubrania, ozdoby czy akcesoria. 
+Istnieje wiele rodzajów szydełek, różniących się wielkością i kształtem, co pozwala na różnorodność technik i efektów. 
+</br></br><img src="sprzet.jpg"></br></br>
+Szydełkowanie to pasjonujące hobby, które pozwala na tworzenie unikatowych rzeczy i rozwijanie kreatywności.
+Szydełko – narzędzie zakończone haczykiem, służące do ręcznego wyrobu dzianiny poprzez przeciąganie nici przez pętelki. 
+Dwa podstawowe typy szydełek to klasyczne (krótkie, proste) i tunezyjskie (długie jak druty do robótek, zakończone ogranicznikiem 
+zapobiegającym zsuwaniu się robótki.
+
+	</div>
+	
+    <div id="footer">
+
+	
+	<p id="currentDateTime"></p><script>
+function displayCurrentDateTime() {
+  var currentDate = new Date();
+  var dayOfWeek = ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'][currentDate.getDay()];
+  var date = currentDate.getDate();
+  var monthNames = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia'];
+  var month = monthNames[currentDate.getMonth()];
+  var year = currentDate.getFullYear();
+  var hours = currentDate.getHours();
+  var minutes = currentDate.getMinutes();
+  var seconds = currentDate.getSeconds();
+  
+  var dateTimeString = "Dzisiaj jest " + dayOfWeek + " " + date + " " + month + " " + year + " " + "godzina" + " " + hours + ":" + minutes + ":" + seconds;
+  document.getElementById("currentDateTime").textContent = dateTimeString;
+}
+
+displayCurrentDateTime();
+setInterval(displayCurrentDateTime, 1000);
+</script>
+	</div>
+</div>
+
+</body>
+
+</html>

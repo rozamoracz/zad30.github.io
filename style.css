@@ -1,0 +1,464 @@
+
+#container {
+    width: 90%;
+    font-family: Blinker;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+#size
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header
+{
+	 background-color: #336699; 
+    height: 30vh; 
+	font-family: Blinker;
+    font-size: 5vw; 
+	 color: #fff; 
+       text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+	
+}
+
+#header img {
+margin: 0 auto;
+height: 170px;
+width: 550px;	
+}
+
+#menutop {
+  background-color: #708090;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+	font-family: Blinker;
+	align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%; 
+}
+
+#menutop li {
+    width: 250px; 
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#menutop a {
+    display: block; 
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 15px;
+}
+
+#menutop a:hover {
+    background-color: #ccc;
+}
+
+
+#aside
+{
+	background-color: #A9A9A9;
+	width: 250px;
+	height: 500px;
+	margin: 0 auto;
+	float: left;
+}
+
+.menlew
+{
+	height: 100px;
+	line-height:100px;
+	text-align: center;
+	font-size: 16px;
+	
+}
+
+.menlew a
+{
+	text-decoration: none;
+	color: white;
+}
+.menlew a:hover
+{
+	text-decoration: none;
+	color: #fc5603;
+}
+
+.menlew:hover
+{
+	background-color: #037f8c;
+}
+
+#main
+{
+	
+	float: left;
+
+}
+
+#content
+{
+	font-family: Blinker;
+	width: auto;
+	height: 500px;
+	background-color: 	#696969;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 1.2;
+	padding: 20px; 
+    box-sizing: border-box;
+	
+}
+#content img{
+	height: 200px;
+	width: 380px;
+}
+
+#currentDateTime {
+  margin-top: 0;
+}
+p {
+  
+   margin-right: 20px;
+   
+}
+.link
+{
+	text-decoration: none;
+		
+}
+.link:hover
+{
+color: white;	
+}
+
+
+#footer
+{	
+	color: white;
+	font-size: 18px;
+	font-family: Blinker;
+	line-height:40px;
+	text-align: center;
+	background-color: #333;
+	clear: both;
+	height: 40px;
+	
+}
+
+@media (min-width: 520px) and (max-width: 1023px)
+{
+
+#container
+{
+width: auto;
+}
+
+#size
+{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header
+{
+	background-color: #336699; 
+    height: 18vh; 
+    font-size: 3vw; 
+    color: #fff; 
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    	
+}
+
+#header img {
+margin: 0 auto;
+height: 100px;
+width: 300px;	
+}
+
+#menutop {
+    background-color: #708090;
+    height: 5vh;
+	font-family: Blinker;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+	font-size: 1.5vw;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%; 
+}
+
+#menutop li {
+    width: 250px; 
+    text-align: center;
+    font-family: Blinker;
+    font-size: 20px;
+}
+
+#menutop a {
+    display: block; 
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 15px;
+	
+}
+
+#menutop a:hover {
+	
+    background-color: #ccc;
+	
+}
+
+#aside
+{
+	background-color: #A9A9A9;
+	width: 195px;
+	height: 500px;
+	margin: 0 auto;
+	float: left;
+}
+.menlew
+{
+	height: 100px;
+	line-height:100px;
+	text-align: center;
+	font-family: Blinker;
+	font-size: 13px;
+	
+}
+
+.menlew a
+{
+	text-decoration: none;
+	color: white;
+}
+.menlew a:hover
+{
+	text-decoration: none;
+	color: #fc5603;
+}
+
+.menlew:hover
+{
+	background-color: #037f8c;
+}
+
+#main
+{
+	
+	float: left;
+
+}
+
+#content
+{
+	width: auto;
+	height: 500px;
+	background-color: 	#696969;
+	font-family: Blinker;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 1.2;
+	padding: 15px; 
+    box-sizing: border-box;
+}
+
+#content img{
+	height: 160px;
+	width: 280px;
+}
+p {
+  
+   margin-right: 20px;
+   
+}
+.link
+{
+	text-decoration: none;
+	font-family: Blinker;
+	
+}
+.link:hover
+{
+color: white;	
+}
+
+#footer
+{	
+	font-family: Blinker;
+	color: white;
+	width: auto;
+	font-size: 18px;
+	line-height:40px;
+	text-align: center;
+	background-color: #333;
+	clear: both;
+	height: 40px;
+	
+}
+
+}
+
+@media (max-width: 519px){
+	
+#container
+{
+width: auto;
+}
+
+#size
+{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header
+{
+	background-color: #336699; 
+    height: 12vh; 
+    font-size: 2vw; 
+	font-family: Blinker;
+    color: #fff; 
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    	
+}
+
+#header img {
+margin: 0 auto;
+height: 70px;
+width: 120px;	
+}
+	
+#aside
+{
+	display: none;
+}
+
+#menutop {
+    background-color: #708090;
+    height: 5vh;
+	width: auto;
+    display: flex;
+	font-family: Blinker;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+	font-size: 1.5vw;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 100%; 
+}
+
+#menutop li {
+    width: 250px; 
+    text-align: center;
+    font-family: Blinker;
+    font-size: 20px;
+}
+
+#menutop a {
+    display: block; 
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 15px;
+
+}
+
+#menutop a:hover {
+    background-color: #ccc;
+}
+
+#content
+{
+	width: auto;
+	height: 500px;
+	background-color: 	#696969;
+	font-family: Blinker;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	line-height: 1.2;
+	padding: 10px; 
+    box-sizing: border-box;
+	
+}
+
+p {
+  
+   margin-right: 10px;
+   
+}
+
+.link
+{
+	text-decoration: none;
+	font-family: Blinker;
+	
+}
+
+.link:hover
+{
+color: white;	
+}
+
+#footer
+{	
+	font-family: Blinker;
+	color: white;
+	width: auto;
+	font-size: 12px;
+	line-height:30px;
+	text-align: center;
+	background-color: #333;
+	clear: both;
+	height: 30px;
+	
+}
+
+	}

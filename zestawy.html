@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+<meta charset="utf-8">
+<title>Zestawy </title>
+<meta name="description" content="Strona poświęcona szydełkowaniu, podstawowym technikom i najciekawszym wyrobom rękodzielniczym">
+<meta name="keywords" content="szydełko, szydełkowanie, rękodzieło, włóczka, szydełko, oczka, techniki szydełkowania">
+<meta name="author" content="Róża Dobrowolska">
+<meta http-equiv="X-Ua-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+<div id="container">
+    <div id="size">
+	
+    <div id="header">
+    
+		<img src="logo.png">
+    </div>
+    <div id="menutop">
+        <ul>
+		<li><a href="szydelka.html" > Szydełka </a></li>
+		<li><a href="wloczki.html" > Włóczki </a></li>
+		<li><a href="zestawy.html" > Zestawy</a></li>
+		<li><a href="index.html" > Glowna </a></li>
+		
+		</ul>
+    </div>
+    <div id="aside">
+	<div class="menlew"><a href="#" > Wzory </a></div>
+	<div class="menlew"><a href="#" > Techniki </a></div>
+	<div class="menlew"><a href="#" > Inspiracje </a></div>
+	<div class="menlew"><a href="#" > Porady </a></div>
+	<div class="menlew"><a href="#" > Wzory </a></div>
+	<div style=clear:both></div>
+	</div>
+	<div id="content">
+
+
+
+Zestawy do szydełkowania są doskonałym rozwiązaniem dla początkujących, ale też dla tych, którzy chcą spróbować nowych technik.
+ W takich zestawach znajdują się wszystkie niezbędne akcesoria, takie jak szydełka, włóczki, instrukcje i wzory.
+ Dzięki nim można szybko rozpocząć przygodę z szydełkowaniem i zaoszczędzić czas na szukaniu odpowiednich materiałów.
+ Zestawy do szydełkowania są często zaprojektowane tematycznie, na przykład do tworzenia zabawek, biżuterii czy dekoracji domowych, 
+ co ułatwia wybór idealnego projektu. 
+</br></br><img src="zestaw.jpg"></br></br>
+ Zestawy do szydełkowania to idealne rozwiązanie dla osób, które dopiero zaczynają 
+ przygodę z tym rękodziełem. W zestawie znajdują się najczęściej szydełko w kilku rozmiarach, różne kolory włóczek, 
+ instrukcje i wzory do wykonania. Dzięki temu można zacząć szydełkowanie od razu i nie trzeba myśleć o zakupie dodatkowych materiałów. 
+ Zestawy do szydełkowania dla początkujących zazwyczaj pakowane są w praktyczne i poręczne etui, organizery lub torby,
+ chroniące elementy przed uszkodzeniem.
+
+
+
+	</div>
+	
+    <div id="footer">
+
+	
+	<p id="currentDateTime"></p><script>
+function displayCurrentDateTime() {
+  var currentDate = new Date();
+  var dayOfWeek = ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'][currentDate.getDay()];
+  var date = currentDate.getDate();
+  var monthNames = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia'];
+  var month = monthNames[currentDate.getMonth()];
+  var year = currentDate.getFullYear();
+  var hours = currentDate.getHours();
+  var minutes = currentDate.getMinutes();
+  var seconds = currentDate.getSeconds();
+  
+  var dateTimeString = "Dzisiaj jest " + dayOfWeek + " " + date + " " + month + " " + year + " " + "godzina" + " " + hours + ":" + minutes + ":" + seconds;
+  document.getElementById("currentDateTime").textContent = dateTimeString;
+}
+
+displayCurrentDateTime();
+setInterval(displayCurrentDateTime, 1000);
+</script>
+	</div>
+</div>
+
+</body>
+
+</html>

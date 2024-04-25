@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+<meta charset="utf-8">
+<title>Szydełkowanie - moja wielka pasja </title>
+<meta name="description" content="Strona poświęcona szydełkowaniu, podstawowym technikom i najciekawszym wyrobom rękodzielniczym">
+<meta name="keywords" content="szydełko, szydełkowanie, rękodzieło, włóczka, szydełko, oczka, techniki szydełkowania">
+<meta name="author" content="Róża Dobrowolska">
+<meta http-equiv="X-Ua-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+<div id="container">
+    <div id="size">
+	
+    <div id="header">
+    
+		<img src="logo.png">
+    </div>
+    <div id="menutop">
+        <ul>
+		<li><a href="szydelka.html" > Szydełka </a></li>
+		<li><a href="wloczki.html" > Włóczki </a></li>
+		<li><a href="zestawy.html" > Zestawy</a></li>
+		<li><a href="#" > Główna </a></li>
+		
+		</ul>
+    </div>
+    <div id="aside">
+	<div class="menlew"><a href="#" > Wzory </a></div>
+	<div class="menlew"><a href="#" > Techniki </a></div>
+	<div class="menlew"><a href="#" > Inspiracje </a></div>
+	<div class="menlew"><a href="#" > Porady </a></div>
+	<div class="menlew"><a href="#" > Wzory </a></div>
+	<div style=clear:both></div>
+	</div>
+	<div id="content">
+
+Szydełkowanie to nie tylko sposób spędzania wolnego czasu, ale też wspaniała pasja, która pozwala nam tworzyć piękne i unikatowe dzieła. Polega ono na wykonywaniu różnych wzorów i splotów za pomocą szydełka oraz włóczki, co daje ogromną swobodę w tworzeniu własnych projektów.
+
+Szydełkowanie pozwala nam rozwijać naszą kreatywność i umiejętności manualne, a także relaksuje i odpręża. Możemy dzięki niemu stworzyć przeróżne rzeczy, takie jak ozdoby do domu, ubrania, akcesoria czy nawet zabawki dla dzieci.
+
+</br></br><img src="szydelko.jpg"></br></br>
+
+Jedną z zalet szydełkowania jest także to, że możemy robić to praktycznie wszędzie - w domu, podczas podróży czy nawet w przerwie w pracy. To świetny sposób na oderwanie się od codziennych spraw i zanurzenie się w twórczym procesie.
+
+Dzięki szydełkowaniu możemy również poznać nowych ludzi i pozostawać w kontakcie z innymi pasjonatami tej sztuki, wymieniać się doświadczeniami i pomysłami. To również doskonały sposób na spędzanie czasu w sposób produktywny i twórczy.
+	
+	</div>
+	
+    <div id="footer">
+
+	
+	<p id="currentDateTime"></p><script>
+function displayCurrentDateTime() {
+  var currentDate = new Date();
+  var dayOfWeek = ['niedziela', 'poniedziałek', 'wtorek', 'środa', 'czwartek', 'piątek', 'sobota'][currentDate.getDay()];
+  var date = currentDate.getDate();
+  var monthNames = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia'];
+  var month = monthNames[currentDate.getMonth()];
+  var year = currentDate.getFullYear();
+  var hours = currentDate.getHours();
+  var minutes = currentDate.getMinutes();
+  var seconds = currentDate.getSeconds();
+  
+  var dateTimeString = "Dzisiaj jest " + dayOfWeek + " " + date + " " + month + " " + year + " " + "godzina" + " " + hours + ":" + minutes + ":" + seconds;
+  document.getElementById("currentDateTime").textContent = dateTimeString;
+}
+
+displayCurrentDateTime();
+setInterval(displayCurrentDateTime, 1000);
+</script>
+	</div>
+</div>
+
+</body>
+
+</html>
